@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(233, 224, 128);
+
+}
+
+.header, main{
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+main input{
+    border-radius: 10px;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1rem;
+    color:brown;
+    box-shadow: 2px -2px 2px 2px blue;
+    margin-right: 0.5rem;
+}
+
+button{
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+header p{
+    font-size: 20px;
+}
+
+.message {
+    font-size: 2rem;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 0.8rem;
+    background-color: rgb(79, 99, 99);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
